@@ -1,0 +1,17 @@
+body{
+  background-color: aquamarine;
+  align-items: center;
+  text-align: center;
+}
+p{
+  color: black;
+  font-size: 23+px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
