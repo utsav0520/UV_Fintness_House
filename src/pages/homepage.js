@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './homepage.css'; // Import your styles
-import URKJ_fittnesHouse from '../Image/URKJ_fittnesHouse.jpeg'
-import Disha from '../Image/Disha Vishu.jpeg'
+import {UV_FitnessHouse_Logo} from '../Image/LOGO_UVFitnessHouse.jpg'; 
 
 const HomePage = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -25,7 +24,7 @@ const HomePage = () => {
       {/* Header Section */}
       <header id="header">
         <div className="logo">
-          <img className="logo-img" id="header-img" src={URKJ_fittnesHouse} alt="URKJ - Fitness House Logo" />
+          <img className="logo-img" id="header-img" src={UV_FitnessHouse_Logo} alt="URKJ - Fitness House Logo" />
         </div>
         <nav id="nav-bar">
           <ul>
@@ -128,7 +127,7 @@ const HomePage = () => {
 
           <div className="card">
             <div className="icon">
-              <img src={Disha} alt="Trainer 3" />
+              <img src="" alt="Trainer 3" />
             </div>
             <div className="desc">
               <h3>Disha Vishu</h3>
